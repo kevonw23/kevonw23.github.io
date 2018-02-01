@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import SearchBar from '../components/SearchBar/SearchBar';
-import SearchResults from '../components/SearchResults/SearchResults';
-import Playlist from '../components/Playlist/Playlist';
-import Playlists from '../components/Playlists/Playlists';
+import SearchBar from '../Components/SearchBar/SearchBar';
+import SearchResults from '../Components/SearchResults/SearchResults';
+import Playlist from '../Components/Playlist/Playlist';
+import Playlists from '../Components/Playlists/Playlists';
 import Spotify from '../util/Spotify';
 
 class App extends React.Component {
