@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import SearchBar from '../components/SearchBar/SearchBar';
-import MessageBox from '../components/MessageBox/MessageBox';
 import SearchResults from '../components/SearchResults/SearchResults';
 import Playlist from '../components/Playlist/Playlist';
 import Playlists from '../components/Playlists/Playlists';
