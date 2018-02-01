@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './index.js';
+import App from './components/App/App';
 import registerServiceWorker from './registerServiceWorker';
+import './index.css';
 
-ReactDOM.render(<App />, document.getElementByclassName('root'))
+ReactDOM.render(<App />, document.getElementById('root'));
 class App extends Component {
   render() { <div>
   <h1>Ja<span className="highlight">mmm</span>ing</h1>
@@ -16,6 +16,6 @@ class App extends Component {
     </div>
   </div>
 </div>;
-
-};
 registerServiceWorker();
+
+
