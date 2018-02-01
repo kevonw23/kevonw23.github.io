@@ -4,7 +4,6 @@ import SearchBar from '../Components/SearchBar/SearchBar';
 import SearchResults from '../Components/SearchResults/SearchResults';
 import Playlist from '../Components/Playlist/Playlist';
 import Playlists from '../Components/Playlists/Playlists';
-import Spotify from '../util/Spotify';
 
 class App extends React.Component {
   constructor(props) {
